@@ -1,0 +1,30 @@
+
+entity Post {
+	title String
+    published LocalDate
+    content String
+}
+
+entity Comment {
+	content String
+}
+
+relationship ManyToOne {
+	Post{author} to User
+}
+
+relationship ManyToOne {
+	Comment{author} to User
+}
+
+relationship ManyToOne {
+	Comment{post} to Post
+}
+
+// Set pagination options
+paginate Post with infinite-scroll
+
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
