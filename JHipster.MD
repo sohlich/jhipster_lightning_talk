@@ -1,29 +1,44 @@
-# JHipster Generator
-<img src="generate.jpg"/>
+JHipster Generator
+===
+Radomir Sohlich
 
 
-# JHipster - about
+---
+# JHipster - Intro
+- scaffolds Web Application skeleton
 - based on Yaoman
 - Spring boot + AngularJS app generator
-- scaffolds Web Application basics
-- https://github.com/jhipster/generator-jhipster
+- https://github.com/jhipster
 
+![](generate.jpg)
+
+---
 # Generated application
-- Bower, Gulp , Maven
+
+- AngularJS, Bower, Gulp , Maven
 - Spring boot
 - Spring Security
 - Tests
 - Tries to used "best practices"
 
+---
 # Persistence layer design
 - via cli interactively
 - JH Studio/Import
-
+---
 # Demo
 - generate simple webapp
 ```
  $ yo jhipster
- $ \.mvnv
  $ yo jhipster:import-jdl demo.jh
-
 ```
+- generate entity
+```
+yo jhipster:entity book
+```
+- generate service
+```
+yo jhipster:service logic
+```
+
+
