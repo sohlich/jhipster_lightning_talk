@@ -17,7 +17,7 @@
 
 # Persistence layer design
 - via cli interactively
-- JH Studion and import
+- JH Studio/Import
 
 # Demo
 - generate simple webapp
