@@ -2,12 +2,11 @@ JHipster Generator
 ===
 Radomir Sohlich
 
-
 ---
 # JHipster - Intro
-- scaffolds Web Application skeleton
-- based on Yaoman
 - Spring boot + AngularJS app generator
+- scaffolds Web Application skeleton
+- based on Yeoman (http://yeoman.io)
 - https://github.com/jhipster
 
 ![](generate.jpg)
@@ -15,16 +14,16 @@ Radomir Sohlich
 ---
 # Generated application
 
-- AngularJS, Bower, Gulp , Maven
-- Spring boot
-- Spring Security
+- AngularJS, Bower, Gulp , Maven/Grandle
+- Spring boot + Spring Security
 - Tests
-- Tries to used "best practices"
+- Uses "best practices"
 
 ---
 # Persistence layer design
-- via cli interactively
-- JH Studio/Import
+- CLI
+- JDL Studio -> Import created description
+
 ---
 # Demo
 - generate simple webapp
